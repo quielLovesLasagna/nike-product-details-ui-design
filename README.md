@@ -1,4 +1,4 @@
-# Glass Effect Login Page
+# Nike Product Details UI
 
 Product Details UI Design - Nike
 
