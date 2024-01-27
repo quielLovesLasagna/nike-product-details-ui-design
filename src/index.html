@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Product Details UI Design - Nike" />
+		<!-- SCSS -->
+		<link rel="stylesheet" href="./scss/main.scss" />
+		<title>Nike Product Details - UI</title>
+	</head>
+	<body>
+		<nav class="nav">
+			<a href="#" class="nav__link-logo">
+				<img
+					src="../images/nike-logo.png"
+					alt="Nike logo, a picture of a checkmark"
+					class="nav__link-logo-img"
+				/>
+			</a>
+			<ul class="nav__links">
+				<li class="nav__item"><a href="#" class="nav__link">Men</a></li>
+				<li class="nav__item"><a href="#" class="nav__link">Women</a></li>
+				<li class="nav__item"><a href="#" class="nav__link">Kids</a></li>
+				<li class="nav__item"><a href="#" class="nav__link">Sknrs</a></li>
+			</ul>
+			<div class="nav__right">
+				<div class="nav__search">
+					<img
+						src="../images/search-icon.png"
+						alt="An icon of a magnifying glass"
+						class="nav__search-icon"
+					/>
+					<input
+						type="text"
+						class="nav__search-input"
+						placeholder="Search"
+						name="query"
+						aria-label="Search input"
+					/>
+				</div>
+				<img
+					src="../images/heart-icon-small.png"
+					alt="A picture of a heart"
+					class="nav__heart-icon"
+				/>
+				<img
+					src="../images/cart-icon.png"
+					alt="A picture of a shopping cart"
+					class="nav__cart-icon"
+				/>
+			</div>
+		</nav>
+		<main class="main">
+			<p class="main__side-text">Just do it</p>
+			<div class="product">
+				<div class="product__img-container">
+					<p class="product__text-bg">Nike</p>
+					<img
+						src="../images/shoe-1.png"
+						alt="A picture of Nike Air Max 90 Shoe"
+						class="product__img"
+					/>
+				</div>
+			</div>
+			<div class="product__info">
+				<h1 class="product__name">Nike Air MAx 90</h1>
+				<p class="product__description">
+					Whether you want a monochromatic look or sporty with an edge, the AM90
+					can do it all. Customise everything from the laces to the Nike Air
+					unit for a design that is truly you. 
+				</p>
+				<span class="product__size-tag">Select Size</span>
+				<ul class="product__sizes">
+					<li class="product__size">UK 7</li>
+					<li class="product__size">UK 8</li>
+					<li class="product__size">UK 8</li>
+				</ul>
+				<p class="product__price">MRP: ₹14999/-</p>
+				<div class="product__check-out">
+					<button class="product__button">Add to Cart</button>
+					<img src="../images/heart-icon-big.png" alt="A picture of a heart" />
+				</div>
+			</div>
+		</main>
+	</body>
+</html>

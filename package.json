@@ -1,0 +1,17 @@
+{
+	"name": "nike-product-details-ui",
+	"version": "1.0.0",
+	"description": "Product Details UI Design - Nike",
+	"main": "",
+	"scripts": {
+		"start": "parcel src/index.html",
+		"build": "parcel build src/index.html"
+	},
+	"keywords": [],
+	"author": "Exequiel",
+	"license": "ISC",
+	"devDependencies": {
+		"parcel-bundler": "^1.12.5",
+		"sass": "^1.70.0"
+	}
+}
