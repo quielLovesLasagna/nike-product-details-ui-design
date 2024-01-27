@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: []()
+- Live Site URL: [https://quiel-nike-product-details-ui-design.netlify.app/](https://quiel-nike-product-details-ui-design.netlify.app/)
 
 ## My process
 
